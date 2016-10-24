@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content=" coding Dojo add user">
+	<meta name="author" content="Jose Lechuga">
+	<title>Adding A User with jQuery</title>
+	<!-- Bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div id="wrapper">
+			<div class="box">
+				<h1 class="header">Assignment: Adding a User with jQuery</h1>
+				<p>Create a blank table which has First Name, Last Name, Email and Contact Number as table headings. Have a form at the bottom which will be used to append items on to the table. Make sure that each form field appends to its proper row/column in the table.
+				</p>
+				<hr />
+			</div>
+			<div class="box">
+				<h2 class="header">User Form</h2>
+				<form action="#">
+					<div class="row">
+						<div class=".col-xs-6 .col-md-3">First Name:</div>
+						<div class=".col-xs-6 .col-md-3">
+							<input id="first-name" type="text" placeholder="First Name" />
+						</div>
+					</div>
+					<div class="row">
+						<div class=".col-xs-6 .col-md-3">Last Name:</div>
+						<div class=".col-xs-6 .col-md-3">
+							<input id="last-name" type="text" placeholder="Last Name" />
+						</div>
+					</div>
+					<div class="row">
+						<div class=".col-xs-6 .col-md-3">Email Address:</div>
+						<div class=".col-xs-6 .col-md-3">
+							<input id="email-address" type="text" placeholder="Email Address" />
+						</div>
+					</div>
+					<div class="row">
+						<div class=".col-xs-6 .col-md-3">Contact No.:</div>
+						<div class=".col-xs-6 .col-md-3">
+							<input id="phone" type="text" placeholder="Phone #" />
+						</div>
+					</div>
+					<div class="row">
+						<div class=".col-xs-6 .col-md-3">
+							<input id="submit" type="submit" value="Add User" />
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="box">
+				<h2 class="header">Users Table</h2>
+				<table class="table">
+					<thead>
+						<tr>
+							<td>First Name</td>
+							<td>Last Name</td>
+							<td>Email Address</td>
+							<td>Contact #</td>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+				<hr />
+				<button>Reset</button>
+			</div>
+			
+		</div>
+	</div>
+	<!-- /.container -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/application.js"></script>
+</body>
+
+</html>

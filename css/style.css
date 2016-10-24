@@ -1,0 +1,61 @@
+body {
+	margin: auto;
+}
+
+h1, h2 {
+	text-align: center;
+	background-color: dodgerblue
+}
+
+p {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+form {
+	margin-left: 200px;
+}
+
+button {
+	margin-left: 515px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+input {
+	margin-top: 5px;
+}
+
+.box {
+	border: 1px solid black;
+	margin-top: 25px;
+}
+
+.header {
+	margin-top: -2px;
+	color: white;
+	border: 1px solid black;
+}
+
+.row {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+#submit {
+	text-align: center;
+	margin: auto;
+	margin-bottom: 10px;
+dis	margin-top: 15px;
+}
+
+..col-md-3 {
+	margin: 10px;
+	width: 125px;
+	margin-top: 7px;
+}
+
+..col-xs-6 {
+	margin: 10px;
+}
+
